@@ -1,3 +1,4 @@
+import "font-awesome/css/font-awesome.min.css";
 import "./sass/main.scss";
 import Sidebar from "./commons/sidebar";
 import Header from "./commons/header";
