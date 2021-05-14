@@ -2,4 +2,15 @@
   background-color: $color-primary;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
+
+  .nav-btn {
+    border: none;
+    border-radius: 0;
+    background-color: $color-primary;
+    color: $color-grey-dark-2;
+    font-size: 4rem;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+  }
 }
