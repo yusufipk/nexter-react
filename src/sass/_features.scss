@@ -7,6 +7,10 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 60px;
   align-items: start;
+
+  @include media("<small") {
+    margin: 8rem 0;
+  }
 }
 
 .feature {
